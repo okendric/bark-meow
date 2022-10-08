@@ -71,7 +71,7 @@ var homeContent = `<container class="splash">
         know what they are doing and are able to contact you easily with
         any questions. At the end of the day, we want ALL of our
         customers to be satisfied. It'll not only put a smile on our
-        consumers' faces, but also ever pet we take care of. Head on
+        consumers' faces, but also every pet we take care of. Head on
         over to the reviews page to check out why we have such a
         positive rating!
       </p>
@@ -197,7 +197,7 @@ var faqContent = ` <div style="margin-top: -50px" class="wrapper">
         don't allow anyone with servere reputations to serve on our team.
         There's also a report function on our mobile app if you believe
         there to be something wrong. We ask that you try to resolve it
-        with the staff member first if possible. If the situation severe
+        with the staff member first if possible. If the situation is severe
         enough, investigation expenses will be covered by us.
       </p>
     </div>
@@ -340,7 +340,7 @@ var contactContent = `<div style="margin-top: -50px" class="wrapper">
       <p class="author">Financial Services Director:</p>
       <p>
         Hello! I'm Dante. I work in financial services to ensure everyone
-        gets pay accordingly and that we budget properly. If any sponsors
+        gets paid accordingly and that we budget properly. If any sponsors
         are interested in our service, I'm one of the staff members who
         you can contact. Every year we always host a large event that many
         sponsors can take part in. Thank you to all our staff who make
