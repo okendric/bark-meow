@@ -1,6 +1,6 @@
 nav {
   height: 50px;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -40,67 +40,122 @@ html {
   position: relative;
 }
 
-.area1 {
-  background-color: rebeccapurple;
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer img {
+  width: 200px;
+}
+
+.content {
   width: 80%;
   margin: 0 auto;
   margin-top: 110px;
-  height: 1000px;
+  height: 1325px;
   display: flex;
+  flex-direction: column;
+  position: relative;
 }
-.area1 .area1Box {
-  background-color: rgb(16, 22, 77);
+.content .textPicture {
+  display: flex;
+  margin-bottom: 30px;
+}
+.content .textBox {
+  background-color: #443224;
+  border-radius: 25px;
   width: 70%;
   height: 200px;
   padding: 15px;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   min-width: 300px;
 }
-.area1 .area1Box p {
+.content .textBox p {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   max-height: 200px;
   min-width: 200px;
 }
-.area1 img {
+.content .textBox .author {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #fac38f;
+}
+.content img {
   width: 30%;
   height: 228px;
   object-fit: cover;
+  border-radius: 100px;
 }
 
-@media only screen and (max-width: 1600px) {
-  .area1 .area1Box p {
+@media only screen and (max-width: 1723px) {
+  .content .textBox p {
     font-size: 25px;
   }
 }
-@media only screen and (max-width: 1150px) {
-  .area1 {
+@media only screen and (max-width: 1293px) {
+  .content {
+    height: 2470px;
+  }
+  .textPicture {
     flex-direction: column;
   }
-  .area1 .area1Box {
+  .textPicture .textBox {
     margin: 0 auto;
   }
-  .area1 img {
+  .textPicture .textBox p {
+    font-size: 23px;
+  }
+  .textPicture img {
     margin: 0 auto;
     width: 600px;
   }
 }
 @media only screen and (max-width: 1000px) {
-  .area1 {
+  .content {
     flex-direction: column;
   }
-  .area1 .area1Box {
+  .content .textBox {
     margin: 0 auto;
   }
-  .area1 .area1Box p {
+  .content .textBox p {
     font-size: 21px;
   }
-  .area1 img {
+  .content img {
     margin: 0 auto;
     width: 450px;
+  }
+}
+@media only screen and (max-width: 911px) {
+  .splashTitle h1 {
+    font-size: 80px;
+    padding-top: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content .textBox {
+    margin: 0 auto;
+  }
+  .content .textBox p {
+    font-size: 16px;
+  }
+  .content img {
+    margin: 0 auto;
+    width: 330px;
   }
 }
 
