@@ -1,0 +1,107 @@
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  background-color: #beb5b0;
+}
+
+.splash {
+  width: 100%;
+  height: 300px;
+}
+.splash img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 34%;
+  filter: brightness(70%);
+  z-index: 99;
+}
+
+.splashTitle h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Coming Soon", cursive;
+  margin-top: -240px;
+  color: white;
+  position: relative;
+}
+
+.area1 {
+  background-color: rebeccapurple;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 110px;
+  height: 1000px;
+  display: flex;
+}
+.area1 .area1Box {
+  background-color: rgb(16, 22, 77);
+  width: 70%;
+  height: 200px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+}
+.area1 .area1Box p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  max-height: 200px;
+  min-width: 200px;
+}
+.area1 img {
+  width: 30%;
+  height: 228px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1600px) {
+  .area1 .area1Box p {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .area1 {
+    flex-direction: column;
+  }
+  .area1 .area1Box {
+    margin: 0 auto;
+  }
+  .area1 img {
+    margin: 0 auto;
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .area1 {
+    flex-direction: column;
+  }
+  .area1 .area1Box {
+    margin: 0 auto;
+  }
+  .area1 .area1Box p {
+    font-size: 21px;
+  }
+  .area1 img {
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
